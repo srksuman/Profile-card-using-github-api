@@ -1,6 +1,7 @@
 
 * {
     box-sizing: border-box;
+    margin-left: 0;
 }
 
 .row::after {
@@ -19,7 +20,7 @@ html {
 }
 
 .header {
-    background-color: #683d7e;
+    background-color: #4F646F;
     color: #ffffff;
     padding: 15px;
 }
@@ -29,21 +30,29 @@ html {
     margin: 0;
     padding: 0;
 }
+.style_bio{
+    margin-top: 20%;
+}
+@media only screen and (max-width: 720px) {
+    .style_bio{
+        margin-top: 1%;
+    }
+}
 
 .menu li {
     padding: 8px;
     margin-bottom: 7px;
-    background-color: #40788d;
+    background-color: #1f1822;
     color: #ffffff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .menu li:hover {
-    background-color: #0099cc;
+    background-color: #3c5c4a;
 }
 
 .aside {
-    background-color: #40788d;
+    background-color: #171219;
     padding: 15px;
     color: #ffffff;
     /* text-align: center; */
@@ -52,11 +61,11 @@ html {
 }
 
 .footer {
-    background-color: #40788d;
+    background-color: #535657;
     color: #ffffff;
     text-align: center;
     font-size: 12px;
-    padding: 15px;
+    padding: 3px;
 }
 
 /* For mobile phones: */

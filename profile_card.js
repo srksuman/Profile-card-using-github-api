@@ -3,7 +3,7 @@ fetch('https://api.github.com/users/srksuman')
     .then(data => {
         console.log(data)
         console.log(data['avatar_url'])
-        var img = `<img src="${data['avatar_url']}" width=200 alt="">`
+        var img = `<img src="${data['avatar_url']}" width=250 alt="">`
         document.getElementById('avatar').innerHTML = img;
         document.getElementById('bio').innerHTML = data['bio']
 
