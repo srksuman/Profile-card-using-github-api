@@ -1,4 +1,4 @@
 # A simple profile card
 https://srksuman.github.io/Profile-card-using-github-api/
 ## How it looks
-![demo](https://user-images.githubusercontent.com/67781881/125101981-88699a00-e0fa-11eb-8c88-5c42b76d2f9b.gif)
+![demo2](https://user-images.githubusercontent.com/67781881/125134461-21160f00-e127-11eb-943d-ad8062e101d0.gif)
