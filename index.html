@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1 class="name" style="text-align: center;">Suman Raj Khanal</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-3 col-s-3 menu">
+            <ul>
+                <li style="text-align: center;background-color: #6f527e;">
+                    <span id='avatar'></span>
+                </li>
+                <li>Username: <span id='username'></span></li>
+                <li>Following: <span id='following'></span></li>
+                <li>Followers: <span id='followers'></span></li>
+                <li>Location: <span id="location"></span></li>
+
+                <li>website: <span id="blog"></span></li>
+
+
+
+            </ul>
+        </div>
+
+        <div class="col-6 col-s-9">
+            <h1>Bio</h1>
+            <p id="bio"></p>
+        </div>
+
+        <div class="col-3 col-s-12">
+            <div class="aside">
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'Public')">Public</button>
+                    <button class="tablinks" onclick="openCity(event, 'Forked')">Forked</button>
+
+                </div>
+                <h2>Repositories: <span id="total_number"></span></h4>
+                    <div id="Public" class="tabcontent">
+                        <h3>Public: <span id="public-repo"></span></h3>
+
+                        <div class="ex3">
+
+                            <p id="list-show"></p>
+
+
+                        </div>
+
+                    </div>
+
+                    <div id="Forked" class="tabcontent">
+                        <h3>Forked: <span id="public-for"></span></h3>
+                        <div class="ex3">
+                            <p id="list-show-forked"></p>
+
+                        </div>
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2021 Suman Raj Khanal</p>
+    </div>
+
+    <script src="profile_card.js"></script>
+</body>
+
+</html>
